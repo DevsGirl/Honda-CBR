@@ -1,0 +1,110 @@
+/* google-font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* header */
+.header-bg{
+    background: #264653;
+}
+ 
+.theme-btn{
+    background: #E76F51;
+}
+ 
+.nav-item {
+	margin-right: 36px;
+}
+/* banner */
+.banner-text{
+    margin-bottom: 40px;
+}
+.banner-img{
+    margin-bottom: 40px;
+}
+.banner-text p {
+	color: #E0E0E0;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+/* features */
+.features-area{
+    margin-bottom: 40px;
+}
+.filtered{
+    filter: grayscale(100%);
+}
+.section-title span{
+    color: #E76F51;
+}
+.section-title{
+    margin-bottom: 100px;
+    position: relative;
+}
+.section-title span::before {
+	height: 2px;
+	width: 74px;
+	background: #E76F51;
+	position: absolute;
+	content: "";
+	bottom: -9px;
+	left: 43%;
+}
+.features-img img {
+	margin-bottom: 60px;
+}
+/* news */
+.news-area{
+    margin-bottom: 50px;
+}
+.news-heading {
+	margin-bottom: 50px;
+}
+.read-btn {
+	border: 2px solid #E76F51;
+    transition: .3s;
+}
+.read-btn:hover{
+	border: 0;
+    background: #E76F51;
+    columns: #fff;
+}
+.read-btn btn{
+	color: #E76F51;
+}
+.orange{
+    color: #E76F51;
+}
+/* says */
+.says-area{
+    margin-bottom: 50px;
+}
+.client-img {
+	height: 275px;
+}
+/* faq-area */
+.faq-area{
+    margin-bottom: 70px;
+}
+ 
+/* footer */
+.footer-bg{
+    background: #0B0D17;
+}
+.footer-top ul li {
+	list-style: none;
+}
+.footer-top ul li a{
+
+    color: #fff;
+    text-decoration: none;
+}
+.footer-list ul li{
+
+}
+.footer-list ul li a{
+
+}
